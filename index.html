@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gil</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-end navbar-collapse collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" active href="#albums">Albums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artist">Artist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       </nav>
+       <div class="carousel slides" id="slides" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+            <li data-target="#slides" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-caption">
+                <a class="btn btn-first" role="button" href="https://music.apple.com/us/artist/gil/1473444313">Listen</a>
+                <a class="btn btn-second" role="button" href="https://youtube.com/playlist?list=PLYc6Ulizu92fPN7ZxiU2A5lecKwSZYbWv&si=P9D4Y5iYEZnWyOIp">Stream</a>
+            </div>
+            <div class="carousel-item active">
+                <img src="roses.JPG" class="imgfluid">
+            </div>
+            <div class="carousel-item ">
+                <img src="eye.JPG" alt="" class="imgfluid">
+            </div>
+            <div class="carousel-item">
+                <img src="money.jpg" alt="" class="imgfluid">
+            </div>
+            <div class="carousel-item">
+                <img src="back.JPG" alt="" class="imgfluid">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <h1 class="display-4">
+                    Stay
+                    <br>
+                    Plugged
+                </h1>
+                <p class="lead mt-4">Subscribe for free downloads and music update</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <button class="btn btn-light" role="button" href="#">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding" id="albums">
+        <div class="row Album text-center">
+            <div class="col-12">
+                <h2 class="display-4">Latest Album</h2>
+                <hr class="album">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-12">
+                    <div class="videocontainer embed-responsive embed-responsive-4by3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/j0Pl69woPoc?si=pLJt1WVhqi3SFpkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <h5>
+                        Gil
+                        <br>
+                        DGAF Anymore
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding" id="music">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4">Discography</h2>
+                <hr class="album">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="nobody.JPG" alt="" class="card-img img-fluid">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Nobody's Safe</h3>
+                        <p>
+                            Gil
+                            <br>
+                            Available On All Platfroms
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                       
+                        <a href="https://open.spotify.com/track/5LBhfpwD4tD5KvGSRhVVX4?si=LJ59G4z3SeSdTiwfjRKhjw">
+                            <img src="spotify-logo_318-65027.webp" class="img-fluid" style="width: 25px;">
+                        </a>
+                      
+                        <a href="https://music.apple.com/us/album/nobodys-safe-single/1577027016">
+                            <img src="music-file_318-277555.webp" class="img-fluid" style="width: 25px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="back.jpg" alt="" class="card-img img-fluid">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Back In The Biz</h3>
+                        <p>
+                            Gil
+                            <br>
+                            Available On All Platfroms
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                       
+                        <a href="https://open.spotify.com/track/67NEwnmJ4rN8CEmTbSNXof?si=8yUKj8RsTl2D4dqAcr_NWg">
+                            <img src="spotify-logo_318-65027.webp" class="img-fluid" style="width: 25px;">
+                        </a>
+                       
+                        <a href="https://music.apple.com/us/album/back-in-the-biz-feat-yali/1656161926?i=1656161928">
+                            <img src="music-file_318-277555.webp" class="img-fluid" style="width: 25px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="slide.jpg" alt="" class="card-img img-fluid">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Slide Thru</h3>
+                        <p>
+                            Gil
+                            <br>
+                            Available On All Platfroms
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        
+                        <a href="https://open.spotify.com/track/5LBhfpwD4tD5KvGSRhVVX4?si=LJ59G4z3SeSdTiwfjRKhjw">
+                            <img src="spotify-logo_318-65027.webp" class="img-fluid" style="width: 25px;">
+                        </a>
+                        
+                        <a href="https://music.apple.com/us/album/nobodys-safe-single/1577027016">
+                            <img src="music-file_318-277555.webp" class="img-fluid" style="width: 25px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="eye.jpg" alt="" class="card-img img-fluid">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Fucking It Up</h3>
+                        <p>
+                            Gil
+                            <br>
+                            Available On All Platfroms
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                       
+                        <a href="https://open.spotify.com/track/67NEwnmJ4rN8CEmTbSNXof?si=8yUKj8RsTl2D4dqAcr_N">
+                            <img src="spotify-logo_318-65027.webp" class="img-fluid" style="width: 25px;">
+                        </a>
+                       
+                        <a href="https://music.apple.com/us/album/back-in-the-biz-feat-yali/1656161926?i=1656161928">
+                            <img src="music-file_318-277555.webp" class="img-fluid" style="width: 25px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="exclamation.JPG" alt="" class="card-img img-fluid">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Exclamation</h3>
+                    <p>
+                        Gil
+                        <br>
+                        Available On All Platfroms
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                   
+                    <a href="https://music.apple.com/us/album/exclamation-ep/1541939637">
+                        <img src="spotify-logo_318-65027.webp" class="img-fluid" style="width: 25px;">
+                    </a>
+                   
+                    <a href="https://open.spotify.com/track/0BeUg8yFdlyqAJwqWSfqDl?si=BbYua2ZDSvC7sOw5lYaf2Q">
+                        <img src="music-file_318-277555.webp" class="img-fluid" style="width: 25px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="money.jpg" alt="" class="card-img img-fluid">
+                <div class="card-body text-center">
+                    <h3 class="card-title">MRE (Feat. Benny the Bucther)</h3>
+                    <p>
+                        Gil
+                        <br>
+                        Available On All Platfroms
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                   
+                    <a href="https://open.spotify.com/track/3zzhDrYZWUdqNVLctIe5Pm?si=ci-Ij8pcRoO3dpC4_wnw8Q">
+                        <img src="spotify-logo_318-65027.webp" class="img-fluid" style="width: 25px;">
+                    </a>
+                    
+                    <a href="https://music.apple.com/us/album/mre-feat-benny-the-butcher/1689263759?i=1689263760">
+                        <img src="music-file_318-277555.webp" class="img-fluid" style="width: 25px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="roses.JPG" alt="" class="card-img img-fluid">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Red Roses & Purple Hearts</h3>
+                    <p>
+                        Gil
+                        <br>
+                        Available On All Platfroms
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                   
+                    <a href="https://open.spotify.com/album/38kPMIdIlH86t5tHDq7jcN?si=Binkro6PRnmZMKYPeiv70w">
+                        <img src="spotify-logo_318-65027.webp" class="img-fluid" style="width: 25px;">
+                    </a>
+                    
+                    <a href="https://music.apple.com/us/album/red-roses-purple-hearts/1705986565">
+                        <img src="music-file_318-277555.webp" class="img-fluid" style="width: 25px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid mt-5" id="artist">
+        <div class="row Al`bum text-center">
+            <div class="col-lg-6">
+                <h2>About Gil</h2>
+                <p class="lead">
+                    Gil is a prominent figure in the modern day Rap Music scene, he is regarded as one of the most commercially successful and influential artists of the genre.
+                </p>
+                <a class="btn btn-first" role="button" href="
+                https://www.instagram.com/tharealgil?igsh=MzRlODBiNWFlZA==">follow</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="gilpro.JPG" alt="" class="img-fluid w-50 rounded">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <div class="container-fluid padding" id="connect">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect To Music</h2>
+            </div>
+            <div class="col-12 social padding">
+                
+                <a href="https://youtu.be/pc3a25bfGew?si=_GeULMZv9xqC39xc">
+                    <img src="youtube-symbol_318-65373.webp" class="img-fluid" style="width: 25px;">
+                </a>
+                
+                <a href="https://music.apple.com/us/artist/kid-kai/1510193574">
+                    <img src="music-file_318-277555.webp" class="img-fluid" style="width: 25px;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding" id="music">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4">Merch</h2>
+                <hr class="album">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="alter.JPG" alt="" class="card-img img-fluid">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Alter Ego</h3>
+                        <p>
+                           Black
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                       
+                        <button type="button" class="btn btn-primary">Order</button>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ego.JPG" alt="" class="card-img img-fluid">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Alter Ego</h3>
+                        <p>
+                            Black
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                       
+                        <button type="button" class="btn btn-primary">Order</button>
+                    </div>
+                </div>
+            </div>
+          
+                  
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="deadgr.JPG" alt="" class="card-img img-fluid">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Deadline</h3>
+                                <p>
+                                    Wine
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                               
+                                <button type="button" class="btn btn-primary">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                   
+                  
+    <footer>
+        <div class="container-fluid padding mt-5">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h5>Managment</h5>
+                    <hr class="light">
+                    <p>Gil</p>
+                    <p>+223211111</p>
+                    <p>musicgil26@gmail.com</p>
+                    <p>Tampa, Florida</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Bookings</h5>
+                    <hr class="light">
+                    <p>Gil</p>
+                    <p>+223211111</p>
+                    <p>musicgil26@gmail.com</p>
+                    <p>Tampa, Florida</p>
+                </div>
+                <div class="col-md-4">
+                    <h5></h5>
+                    <hr class="light">
+                    <p>Gil</p>
+                    <p>+223211111</p>
+                    <p>musicgil26@gmail.com</p>
+                    <p>Tampa, Florida</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-last">
+                    <h5>© Gil 2024</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed"></div>
+        </div>
+    </figure>
+</body>
+</html>
